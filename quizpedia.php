@@ -35,9 +35,9 @@ function embed_quiz( $atts ) {
             ), $atts );
     // Code
     if($options['embed_type'] == 'quiz'){
-        return '<div data-qid="'.$atts['id'].'" style="width:'.$atts['w'].'px;height:'.$atts['h'].'px" class="qpembed"></div><script type="text/javascript" src="//qp.quizpedia.com/js/embed.js" async="true"></script>';
+		return '<div data-qid="'.$atts['id'].'" data-sn="qp" style="width:'.$atts['w'].'px;height:'.$atts['h'].'px" class="qpembed"></div><script type="text/javascript" src="//qptaker-prod.platform.quizpedia.com/js/embed.js" async="true"></script>';
     }
-    return '<script type="text/javascript" src="//qp.quizpedia.com/js/qp-embed.js?d=div&q='.$atts['id'].'&w='.$atts['w'].'" async="true"></script>';
+	return '<script type="text/javascript" src="//qptaker-prod.platform.quizpedia.com/js/qp-embed.js?d=div&q='.$atts['id'].'&w='.$atts['w'].'&a=modal&sn=qp" async="true"></script>';
 }
 function plugin_settings() {
     register_setting( 'qp-settings-group', 'optin' );

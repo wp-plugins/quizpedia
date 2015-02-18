@@ -27,10 +27,16 @@ Yes. In the settings panel you can choose if you want to embed quizzes fully or 
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixes support for new QuizPedia url formats
+
 = 1.0 =
 * Support for both quizzes and cards added
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+This version fixes crashes caused by new QuizPedia url format strategy
 
 = 1.0 =
 This version adds support for cards
