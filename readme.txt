@@ -3,7 +3,7 @@ Contributors: quizpedia
 Donate link: http://www.quizpedia.com/
 Tags: quiz, embed
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,9 @@ Embed quizzes from QuizPedia.com on your blog
 Yes. In the settings panel you can choose if you want to embed quizzes fully or simply as a card that links to the quiz
 
 == Changelog ==
+
+= 1.0.2 =
+* Updated for wordpress 4.1
 
 = 1.0.1 =
 * Fixes support for new QuizPedia url formats

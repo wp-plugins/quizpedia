@@ -3,7 +3,7 @@
  * Plugin Name: QuizPedia
  * Plugin URI: http://www.quizpedia.com/wordpress
  * Description: Embed a QuizPedia quiz on your site
- * Version: 1.0
+ * Version: 1.0.2
  * Author: quizpedia
  * Author URI: http://www.quizpedia.com
  * License: GPL2
@@ -71,7 +71,7 @@ function qp_settings_page() {
             <p>Powered by <a href="//www.quizpedia.com">QuizPedia</a></p>
         </form>
     </div>
-<?
+<?php
 }
 
 function plugin_section_embed() {
